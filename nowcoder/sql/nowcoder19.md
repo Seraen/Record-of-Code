@@ -19,8 +19,11 @@
 解：
 
 `SELECT last_name,first_name,dept_name
+
 FROM dept_emp as a
+
 JOIN departments as b on a.dept_no=b.dept_no
+
 right JOIN employees as c on c.emp_no=a.emp_no`
 
 两度的join
